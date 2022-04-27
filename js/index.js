@@ -27,3 +27,5 @@ const asyncPostCall = async (color) => {
         return error
     }
 }
+
+setInterval('asyncGetCall()', 1000);
