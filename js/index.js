@@ -22,7 +22,8 @@ const asyncPostCall = async (color) => {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ state: color })
-        });
+        })
+        asyncGetCall()
     } catch (error) {
         return error
     }
