@@ -28,9 +28,13 @@ body {
     color: black;
     background-color: red ;
     border-radius: 10px;
+    width: 100px;
+    height: 60px;    
 }
 .btn-green{
     color: black;
     background-color: green;
     border-radius: 10px;
+    width: 100px;
+    height: 60px;
 }
