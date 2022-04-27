@@ -29,4 +29,5 @@ const asyncPostCall = async (color) => {
     }
 }
 
-setInterval('asyncGetCall()', 3000);
+// Desativado no gerenciador
+// setInterval('asyncGetCall()', 3000);
