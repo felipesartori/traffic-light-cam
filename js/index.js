@@ -28,4 +28,4 @@ const asyncPostCall = async (color) => {
     }
 }
 
-setInterval('asyncGetCall()', 1000);
+setInterval('asyncGetCall()', 3000);
